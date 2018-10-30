@@ -21,9 +21,7 @@ namespace ForecastIO
 
         public static string FormatExtendString(Extend[] input)
         {
-            //TODO: Add return a string
-            //return string.Join(",", input.Select(i => Enum.GetName(typeof(Extend), i)));
-
+            return string.Join(",", input.Select(i => Enum.GetName(typeof(Extend), i)));
         }
     }
 }
